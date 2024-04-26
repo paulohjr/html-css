@@ -35,7 +35,6 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
     padding-top: 40px;
-    margin: auto;
     min-width: 400px;
 }
 header > h1{
@@ -184,7 +183,5 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-    margin: auto;
     min-width: 400px;
-    margin-right: 0px;
 }
