@@ -38,7 +38,6 @@ header{
     padding-top: 40px;
     margin: auto;
     min-width: 150px;
-    max-width: 2000px;
 }
 header > h1{
     color: white;
@@ -185,7 +184,5 @@ footer{
     padding: 5px;
     margin: auto;
     min-width: 150px;
-    max-width: 2000px;
     margin-right: 0px;
-    padding-right: 50px;
 }
