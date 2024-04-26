@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        header
+        {
+            background-color: #775F3F;
+            text-align: center;
+            padding: 10px;
+            border: 2px;
+        }
+        nav{
+            background-color: #55442D;
+            text-align: center;
+            margin: auto;
+            border-radius: 2px;
+            box-shadow: 3px 5px 7px 1px rgba(0, 0, 0, 0.466);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            color: black;
+            background-color: white;
+            border-radius: 3px;
+        }
+        main{
+            background-color: whitesmoke;
+        }
+        #section01{
+            background-color: #E7A674;
+            color: black;
+            border-radius: 3px;
+        }
+
+        #section02{
+            background-color: #E7A674 ;
+            color: black;
+            border-radius: 3px;
+        }
+
+        #section03 > #article03{
+            text-align: center;
+            margin: auto;
+            background-color:#E7A674 ;
+            /* width: 200px; */
+        }
+
+        #section03 > #article03:hover{
+            background-color: yellow;
+        }
+        
+        #article03 > #p03{
+            font-weight: bold;
+        }
+        #section04{
+            background-color: #E7A674;
+            text-align: center;
+            border-radius: 3px;
+        }
+        #section05{
+            margin: auto;
+            background-color: #E7A674;
+            text-align: center;
+            border-radius: 3px;
+        }
+        footer{
+            background-color:#5F4430;
+            text-align: center;
+            margin: 0px;
+            color: white;
+        }
+        #article05 > aside{
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        #article05{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Protótipo de um Site</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Fotos</a>
+            <a href="#">Downloads</a>
+            <a href="#">Endereço</a>
+            <a href="#">Veja mais sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section01">
+            <article id="article01">
+                <h2>Esse é o Título do artigo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illum officiis vero velit, quae omnis deserunt, cupiditate quod blanditiis exercitationem eveniet minus, porro ipsum! Facere nulla voluptas impedit suscipit. Non.</p>
+            </article>
+        </section>
+
+        <section id="section02">
+            <article id="article02">
+                <h2>Esse é o Título do artigo 2 </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi cupiditate veniam ad architecto iste nisi beatae doloremque voluptate sapiente nulla debitis nesciunt tempore, accusantium reiciendis vel natus? Quam, consectetur possimus!</p>
+            </article>
+        </section>
+        <section id="section03">
+            <article id="article03">
+               <p id="p03">Estou aprendendo CSS3 de uma forma incrível</p>
+                <img src="../ex007/imagens/logo-css.webp" alt="Logo CSS">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates repudiandae molestias ad quidem facilis nam dicta officiis est libero dignissimos similique, voluptatum nemo, earum quae fugiat. Velit doloremque at suscipit!</p>
+            </article>
+        </section>
+        <section id="section04">
+            <article id="article04">
+                <h2>Seguimos com mais um título &lt;h2&gt; centralizado</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nesciunt odit ex placeat dolores asperiores delectus eligendi maxime sapiente omnis natus iure, culpa repellendus unde quod corrupti quia et ut?</p>
+            </article>
+        </section>
+        <section id="section05">
+            <article id="article05">
+                <h2>Agora vamos reproduzir um video do Youtube</h2>
+                <p>Segue abaixo o Video</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=-odmjGvBXijQVIPS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <aside>
+                    <p>
+                        Pronto! esse é um protótipo pensado de forma rapido e feia
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <aside>
+            <p>Esse site foi desenvolvido por mim</p>
+        </aside>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/html.ico.png" type="image/x-icon">
+    <title>Trabalhando com HyperLink</title>
+</head>
+<body>
+    <h1>Usando Links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/" target="_blank" rel="external">canal gratuito no Youtube</a></p>
+
+    <h1>Usando Links Internos</h1>
+    <p>Essa é a primeira pagina do site, se você quiser pode acessar a minha <a href="pag002.html" rel="next">Segunda pagina</a></p>
+    <p>Você também pode acessar a <a href="noticias/pag003.html" rel="next">nossa pagina de noticias</a></p>
+    
+    <style>
+        .nova{
+            text-align: end;
+        }
+    </style>
+    <div class="nova">
+        <p><a href="quarta/pag004.html" rel="next">.</a></p>
+    </div>
+    <style>
+        .hyper
+            {
+                text-align: center;
+            }
+    </style>
+
+
+    <h1>Livros para Download</h1>
+    <ul>
+        <li><a href="livro/itaucard.pdf" download="itaucard.pdf" type="application/pdf" target="_blank" rel="external">Baixar o livro em PDF</a></li>
+        <li><a href="livro/itaucard.rar" download="itaucard.rar" type="app lication/zip">Baixar o Livro em PDF (Compactado)</a></li>
+    </ul>
+       <div class="hyper">
+        <h1>Ignore daqui para baixo</h1>
+            <p>Clique nesta imagem a baixo</p>
+            <a href="https://www.youtube.com/" target="_blank" rel="external"><img src="imagens/logo-css.webp" alt="CSS3"></a>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        @font-face {
+            font-family: 'zrnic rg';
+            src: url('fonts/zrnic\ rg.otf') format('opentype');
+            font-style: normal;            font-weight: normal;
+        }
+        #titulo{
+            text-align: center;
+        }
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            width: 250px;
+            height: 250px;
+            border: 1px solid;
+            text-align: center;
+        }
+
+        #d1 > p {
+            display: none;
+        }
+
+        #d1:hover > p {
+            display: block;
+            color: black;
+            font-size: 0.5em;
+            font-family: 'zrnic rg';
+            font-weight: lighter;
+        }
+
+        div:hover{
+            background-color: yellow;
+        }
+
+        #d2 > p {
+            display: none;
+        }
+
+        #d2:hover > p {
+            display: block;
+        }
+
+h1{
+    font-family: 'zrnic rg';
+}
+ h2{
+    margin: 10px auto 10px auto;
+ }       
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Escolha um dos três quadrados</h1>
+    <h2>
+        
+            <div id="d1">01<p><a href="https://www.google.com/search?sca_esv=f379c00181bfa713&sca_upv=1&q=playstation&uds=AMwkrPuhn_F0WDJCwQwE6XxpOj7eWaXxeXXMH4ovj9LvPVpKpSJMUe9rsgnWLvUeT0KDJZIE1ms3Dgd3b2vxHok27f0E1Im3xr4WDZRL4fDiX9Ic8xONNv1zc_m1udQn6PKhvQoO3tKSV_WizDyl8M0f6kaUWPyiXt09Y2lBQeOOpyaJGBZnYNA3YZK_dp8T41mbwifox2waJXoc0wmcJ6HIgQ5W2Z1q8V06u2LQ5zxM_PYi1JiVH1RlqcUSiVFuF38iC1oAKUEDXaX0F1whCgo8LTIdGt27PvD83tCziGFbfWparwdn6KwXZkEC9D9TXj44_YATsW4h&udm=2&prmd=sinvmbtz&sa=X&ved=2ahUKEwjvwe-w18qFAxUZrZUCHcOgBeEQtKgLegQIERAB&biw=1242&bih=546&dpr=1.1#vhid=lEOh-WEn8AqllM&vssid=mosaic" target="_blank" rel="external">Você Acertou</a></p>
+                <p>clique aqui em cima</p>
+            </div>
+        </a>
+        <div id="d2">02<p><img src="imagens/logo-css.webp" alt="Logo CSS3" width="130">
+        </p>
+        </div>
+        <div id="d3">03</div>
+    </h2>
+</body>
+</html>
