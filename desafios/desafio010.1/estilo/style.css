@@ -28,13 +28,13 @@
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    margin: auto;
 }
 
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     text-align: center;
-    min-height: 150px;
     padding-top: 40px;
     margin: auto;
     min-width: 150px;
