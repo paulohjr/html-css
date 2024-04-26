@@ -36,6 +36,9 @@ header{
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 2000px;
 }
 header > h1{
     color: white;
@@ -180,4 +183,7 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 2000px;
 }
