@@ -10,14 +10,25 @@
             margin: 0px;
         }
         body{
+            
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+           
+            /*
+            shorthand -background
+            color > image > position > repet > [size] > attachment
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+            */
         }
         main{
+            max-width: 700px;
             background-color: white;
             width: 400px;
             padding: 10px;
