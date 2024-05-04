@@ -11,6 +11,11 @@
         h1{
             text-align: center;
         }
+        thead, th{
+            border: 1px solid black;
+            padding: 3px;
+            
+        }
         table{
             height: 400px;
             width: 400px;
@@ -46,7 +51,15 @@
                 table header = cabeçalho de tabela
                     table data = dado de tabela -->
     <table>
-        <tr> <!--Primeira Linha-->
+        <thead>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+            </tr>
+        </thead>
+        
+            <tr> <!--Primeira Linha-->
             <td class="a">A1</td>
             <td class="b">B1</td>
             <td class="c">C1</td>
@@ -66,7 +79,6 @@
             <td class="b">B4</td>
             <td class="c">C4</td>
         </tr>
-
     </table>
 </body>
 </html>
