@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+        }
+        table{
+            border-collapse: collapse;
+            width: 450px;
+            margin: auto;
+        }
+        td,th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        caption{font-weight: bold;
+            font-size: 2em;
+        }
+        .cnome{
+            background-color: lemonchiffon;
+        
+        }
+        .idadesexo{
+            background-color: yellow;
+        }
+        .cprof{
+         color: white;
+         background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alinhamento em Colunas</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="idadesexo" span="2">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+               <td>Ana Maria</td>
+               <td>F</td>
+               <td>25</td>
+               <td>Jornalista</td> 
+            </tr>
+            <tr>
+                <td>Paulo Henrique</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Desenvolvedor Web</td> 
+             </tr>
+             <tr>
+                <td>Luiza Eduarda</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Pedagóga</td> 
+             </tr>
+        </thead>
+    </table>
+</body>
+</html>
