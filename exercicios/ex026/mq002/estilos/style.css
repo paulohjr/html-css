@@ -1,3 +1,22 @@
 @charset "UTF-8";
 
 /* Todos */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-repeat: no-repeat;   
+    background-size: contain;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px #080d38;
+    padding: 10px;
+}
