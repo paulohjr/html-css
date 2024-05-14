@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px) { /*Smartphones*/
+    header, nav{
+        background-color: darkgray;
+        max-width: 600px;
+        min-width: 350px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 922) { /*Tablets*/
+    header, nav{
+        background-color: darkgray;
+        max-width: 922px;
+        min-width: 601px;
+    }
+
+}
+
+@media screen and (min-width:923px) and (max-width: 1250) { /*PC*/
+    header, nav{
+        background-color: darkgray;
+        max-width: 1250px;
+        min-width: 923px;
+    }
+
+}
