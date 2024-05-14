@@ -25,7 +25,7 @@ h1{
     text-align: center;
     color: white;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.486);
-    font-size: 1.5em;
+    font-size: 1em;
 }
 main{
     background-color: rgba(255, 255, 255, 0.829);
@@ -35,6 +35,7 @@ main{
     padding: 10px;
     margin-top: 20px;
 }
+
 img{
     display: block;
     margin: auto;
