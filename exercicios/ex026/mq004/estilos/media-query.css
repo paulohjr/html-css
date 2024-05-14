@@ -11,8 +11,48 @@ Grandes telas: Acima de 1200px
 */
 
 @media print {
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+   
+
+    main > h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+        }
     
+    main{
+        border: 2px solid black;
+        box-shadow: 3px 5px 7px 1px rgba(0, 0, 0, 0.562);
+    }
+    main::after{
+        content: "Essa impressão foi feita através do DEV Paulo Henrique da Silva Junior";
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+
+        img#phone {display: none;}
+        img#tablet{display: none;}
+        img#print{display: block;}
+        img#pc{display: none;}
+        img#tv{display: none;} 
+        
+        footer{
+            font-size: 1em;
+            display: block;
+            margin-top: 600px;
+            }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 992px){   /*Tablet*/
 body{
