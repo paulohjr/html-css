@@ -51,6 +51,9 @@ menu > ul > li > a:hover{
     background-color: gray;
 }
 
+#itens2{
+    display: none;
+}
 main{
     width: 90vw;
     background-color: white;
