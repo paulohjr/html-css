@@ -6,6 +6,7 @@ body{
 
 .pai{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: gray;
     align-items: center;
