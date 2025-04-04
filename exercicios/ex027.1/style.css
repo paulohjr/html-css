@@ -1,0 +1,19 @@
+body{
+    overflow: hidden;
+}
+div.container {
+	background-color: salmon;
+	display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+div.item {
+    margin: auto;
+    background-color: aqua;
+    flex: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
