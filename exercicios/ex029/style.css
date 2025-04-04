@@ -1,22 +1,14 @@
-body{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-}
-
-.pai{
+div.pai{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
     background-color: gray;
-    align-items: center;
-    width: 20%;
+    height: 100px;
 }
 
-.item{
+div.item{
     flex: auto;
     background-color: lightblue;
     text-align: center;
-    width: 25px;
-    margin: 3px;
-}
+    border: 1px solid black;
+    padding: 10px;
+    }
