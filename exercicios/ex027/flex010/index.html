@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox centralizado</title>
+    <style>
+        div.container {
+            background-color: orange;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: green;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="item">A</div>
+            <div class="item">Pequeno</div>
+            <div class="item">C</div>
+            <div class="item">Testo medio</div>
+            <div class="item">E</div>
+            <div class="item">Testo muito grande mesmo</div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 530px) {
+    .navBar {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding: 20px;
+        background-color: grey;
+    }
+}

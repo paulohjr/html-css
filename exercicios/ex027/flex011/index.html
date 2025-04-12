@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox centralizado</title>
+    <style>
+        div.container {
+            background-color: orange;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            background-color: green;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+
+        div#cxa {
+            flex-shrink: 0;
+            flex-grow: 1;
+
+        }
+
+        div#cxb {
+            flex-shrink: 1;
+            flex-grow: 1;
+
+        }
+
+        div#cxc {
+            flex-shrink: 3;
+            flex-grow: 1;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="item" id="cxa">A</div>
+            <div class="item" id="cxb">B</div>
+            <div class="item" id="cxc">C</div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
