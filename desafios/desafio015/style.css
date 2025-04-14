@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.topo{
+    padding: 20px;
+}
+.section01 {
+	background-color: gray;
+    
+}
+
+
+section .div1 {
+    align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+    padding: 20px;
+
+}
+p{
+    padding-right: 20px;
+}
+
+section .div2 {
+    padding: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	flex: 1 1 auto;
+}
+
+@media only screen and (max-width: 620px) {
+	section .div1
+    {   
+        padding: 20px;
+        margin-top: 40px;
+		display: flex;
+		flex-flow: column-reverse wrap;
+        flex: 1 1 auto;
+	}
+
+    section .div2{
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1 auto;
+    }
+}
+
+
+.section3{
+    margin-top: 40px;
+    padding: 20px;
+}
