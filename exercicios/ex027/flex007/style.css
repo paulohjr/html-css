@@ -1,0 +1,14 @@
+
+div.container {
+	background-color: salmon;
+	display: flex; 
+}
+
+div.item {
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+

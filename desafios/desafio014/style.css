@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+.logo{
+    font-family: sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.navBar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: grey;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navBar {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding: 20px;
+        background-color: grey;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .botao{ 
+        margin: 5px;
+        width: 150px;
+        text-decoration: none;
+    }
+
+}
+
+
+.botao{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+     text-decoration: none;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: 450ms;
+    cursor: pointer;
+}
+
+main{
+    background-color: lightgrey;
+    height: 100vh;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main div{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+}
+
+h1{
+    color: black;
+    padding: 10px;
+}
+
+p{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
