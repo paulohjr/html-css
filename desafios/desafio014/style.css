@@ -4,11 +4,11 @@
 }
 
 .logo{
-    border: 1px dotted;
+    font-family: sans-serif;
     color: white;
     font-size: 2rem;
     font-weight: bolder;
-    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.7px black;
 }
 
 .navBar{
@@ -37,7 +37,9 @@
     .botao{ 
         margin: 5px;
         width: 150px;
+        text-decoration: none;
     }
+
 }
 
 
@@ -46,6 +48,7 @@
     color: white;
     padding: 5px;
     border-radius: 5px;
+     text-decoration: none;
 }
 
 .botao:hover{
@@ -59,6 +62,7 @@ main{
     background-color: lightgrey;
     height: 100vh;
     padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main div{
